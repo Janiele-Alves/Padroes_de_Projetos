@@ -131,7 +131,7 @@ def criar_fabrica_ui(sistema_operacional: str) -> FabricaUI:
         raise ValueError("Sistema operacional não suportado")
 
 
-sistema_operacional = "macos"  # Pode ser "windows" ou "macos"
+sistema_operacional = "windows" 
 fabrica_ui = criar_fabrica_ui(sistema_operacional)
 
 botao = fabrica_ui.criar_botao()
